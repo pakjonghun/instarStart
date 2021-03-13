@@ -6,6 +6,7 @@ CREATE TABLE "User" (
     "email" TEXT NOT NULL,
     "bio" TEXT,
     "avatar" TEXT,
+    "password" TEXT NOT NULL,
 
     PRIMARY KEY ("id")
 );
