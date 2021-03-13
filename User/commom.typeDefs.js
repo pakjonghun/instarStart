@@ -11,4 +11,8 @@ export default gql`
     following: [User]
     follower: [User]
   }
+
+  type Query {
+    dummy: String
+  }
 `;
