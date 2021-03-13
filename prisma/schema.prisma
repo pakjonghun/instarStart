@@ -17,6 +17,7 @@ model User{
   email        String   @unique
   bio          String?
   avatar       String?
+  password     String
   following    User[]   @relation("Follow",references: [id])
   follower     User[]   @relation("Follow",references: [id])
 }
